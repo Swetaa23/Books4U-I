@@ -38,7 +38,7 @@ class Book {
   }
 }
 
-async function getBooks(author="", title="", category="", minResults=0, maxResults=50) {
+async function getBooks(author="", title="", category="", minResults=0, maxResults=300) {
   const parameters = [];
   if (author) {
     parameters.push(`inauthor:${encodeURIComponent(author)}`);
