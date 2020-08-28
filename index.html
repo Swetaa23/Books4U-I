@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"
+  />
+  <title>Books 4 U & I</title>
+  <meta name="description" content="Find books from Google Play Books" />
+  <link rel="icon" href="favicon.ico" />
+  <meta itemprop="name" content="Books" />
+  <meta itemprop="description" content="Find books from Google Play Books" />
+  <meta itemprop="image" content="icons/icon-192x192.png" />
+  <meta name="application-name" content="Books 4 U & I" />
+  <!-- Web Fonts -->
+  <link
+          href="https://fonts.googleapis.com/css?family=Montserrat:500,600,900&display=swap"
+          rel="stylesheet"
+  />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+<main id="main" class="main">
+    <div class="list-book">
+      <div class="category book book-info">
+        <h1 class="section-title">Books 4 U & I</h1>
+      </div>
+    </div>
+
+  <section id="search">
+    <div class="flex">
+      <input
+              id="title-box"
+              class="search-box"
+              placeholder="Enter title of book"
+      />
+      <input
+              id="author-box"
+              class="search-box"
+              placeholder="Enter author of book"
+      />
+      <button onclick="findBooks()">
+        Find Recommended Books
+      </button>
+    </div>
+    <div class="list-book search">
+    </div>
+  </section>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
